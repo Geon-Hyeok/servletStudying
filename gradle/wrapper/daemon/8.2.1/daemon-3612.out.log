@@ -1,0 +1,1396 @@
+2023-10-22T18:12:01.156+0900 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [--add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.invoke=ALL-UNNAMED, --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, -XX:MaxMetaspaceSize=384m, -XX:+HeapDumpOnOutOfMemoryError, -Xms256m, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=KR, -Duser.language=ko, -Duser.variant]
+2023-10-22T18:12:01.431+0900 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files integration is not available. Continuing with fallback.
+2023-10-22T18:12:01.445+0900 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=efc8dbba-e011-4d1a-9002-d8e6ca7124aa,javaHome=C:\Program Files\Java\jdk-11,daemonRegistryDir=C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\daemon,pid=3612,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=KR,-Duser.language=ko,-Duser.variant]
+2023-10-22T18:12:01.761+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Software Loopback Interface 1
+2023-10-22T18:12:01.763+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+2023-10-22T18:12:01.763+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+2023-10-22T18:12:01.764+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1
+2023-10-22T18:12:01.765+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Bluetooth Device (Personal Area Network)
+2023-10-22T18:12:01.768+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.768+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:af84:a89d:b721:b5b8%eth0
+2023-10-22T18:12:01.768+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft 6to4 Adapter
+2023-10-22T18:12:01.770+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.770+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (L2TP)
+2023-10-22T18:12:01.772+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.772+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (SSTP)
+2023-10-22T18:12:01.774+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.775+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft IP-HTTPS Platform Adapter
+2023-10-22T18:12:01.777+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.777+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Switch Extension Adapter
+2023-10-22T18:12:01.782+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.783+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller
+2023-10-22T18:12:01.785+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.785+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.200.122
+2023-10-22T18:12:01.786+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:e8c5:8be4:c2d9:88a2%eth2
+2023-10-22T18:12:01.786+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPPOE)
+2023-10-22T18:12:01.788+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.788+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)
+2023-10-22T18:12:01.790+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.790+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Teredo Tunneling Adapter
+2023-10-22T18:12:01.792+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.792+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)
+2023-10-22T18:12:01.806+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.806+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPTP)
+2023-10-22T18:12:01.814+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.815+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Kernel Debug Network Adapter
+2023-10-22T18:12:01.821+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.821+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+2023-10-22T18:12:01.823+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.824+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IKEv2)
+2023-10-22T18:12:01.826+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.826+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+2023-10-22T18:12:01.828+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.828+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+2023-10-22T18:12:01.830+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.830+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller-WFP Native MAC Layer LightWeight Filter-0000
+2023-10-22T18:12:01.832+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.832+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller-QoS Packet Scheduler-0000
+2023-10-22T18:12:01.835+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.838+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000
+2023-10-22T18:12:01.840+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.840+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Switch Extension Adapter-Hyper-V Virtual Switch Extension Filter-0000
+2023-10-22T18:12:01.842+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.843+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Ethernet Adapter
+2023-10-22T18:12:01.845+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.845+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /172.20.128.1
+2023-10-22T18:12:01.845+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:66a4:45c0:9815:37fe%eth13
+2023-10-22T18:12:01.846+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000
+2023-10-22T18:12:01.847+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.848+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+2023-10-22T18:12:01.849+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.849+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+2023-10-22T18:12:01.852+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.852+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+2023-10-22T18:12:01.854+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.854+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+2023-10-22T18:12:01.857+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.857+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Ethernet Adapter-QoS Packet Scheduler-0000
+2023-10-22T18:12:01.862+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.862+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+2023-10-22T18:12:01.864+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-10-22T18:12:01.867+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]].
+2023-10-22T18:12:01.874+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Sun Oct 22 18:12:01 KST 2023, with address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-22T18:12:01.874+0900 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-22T18:12:01.875+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=efc8dbba-e011-4d1a-9002-d8e6ca7124aa,javaHome=C:\Program Files\Java\jdk-11,daemonRegistryDir=C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\daemon,pid=3612,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=KR,-Duser.language=ko,-Duser.variant]
+2023-10-22T18:12:01.876+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]], context: DefaultDaemonContext[uid=efc8dbba-e011-4d1a-9002-d8e6ca7124aa,javaHome=C:\Program Files\Java\jdk-11,daemonRegistryDir=C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\daemon,pid=3612,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=KR,-Duser.language=ko,-Duser.variant]
+2023-10-22T18:12:01.887+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-10-22T18:12:01.890+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-10-22T18:12:01.895+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-10-22T18:12:01.895+0900 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+2023-10-22T18:12:01.896+0900 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+2023-10-22T18:12:01.935+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+2023-10-22T18:12:01.913+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:62550 to /127.0.0.1:62549.
+2023-10-22T18:12:01.950+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+2023-10-22T18:12:01.953+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-10-22T18:12:02.010+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 19: received class org.gradle.launcher.daemon.protocol.Build
+2023-10-22T18:12:02.011+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 19: Received non-IO message from client: Build{id=6ca780c4-1919-4507-9717-3c3e2ab52b24, currentDir=C:\Users\shon5\IdeaProjects\servlet}
+2023-10-22T18:12:02.011+0900 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=6ca780c4-1919-4507-9717-3c3e2ab52b24, currentDir=C:\Users\shon5\IdeaProjects\servlet}.
+2023-10-22T18:12:02.011+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=6ca780c4-1919-4507-9717-3c3e2ab52b24, currentDir=C:\Users\shon5\IdeaProjects\servlet} with connection: socket connection from /127.0.0.1:62549 to /127.0.0.1:62550.
+2023-10-22T18:12:02.014+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=6ca780c4-1919-4507-9717-3c3e2ab52b24, currentDir=C:\Users\shon5\IdeaProjects\servlet}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:62549 to /127.0.0.1:62550] after 0.0 minutes of idle
+2023-10-22T18:12:02.014+0900 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-22T18:12:02.014+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-22T18:12:02.015+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-10-22T18:12:02.015+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-10-22T18:12:02.016+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-10-22T18:12:02.017+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-10-22T18:12:02.019+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-10-22T18:12:02.021+0900 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=6ca780c4-1919-4507-9717-3c3e2ab52b24, currentDir=C:\Users\shon5\IdeaProjects\servlet}. Dispatching build started information...
+2023-10-22T18:12:02.022+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@3aa196bd
+2023-10-22T18:12:02.024+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, LOCALAPPDATA, PROCESSOR_LEVEL, IntelliJ IDEA, USERDOMAIN, LOGONSERVER, FPS_BROWSER_APP_PROFILE_STRING, JAVA_HOME, SESSIONNAME, ALLUSERSPROFILE, PROCESSOR_ARCHITECTURE, PSModulePath, SystemDrive, OneDrive, APPDATA, USERNAME, ProgramFiles(x86), CommonProgramFiles, Path, FPS_BROWSER_USER_PROFILE_STRING, PATHEXT, DriverData, OS, OneDriveConsumer, COMPUTERNAME, IntelliJ IDEA Community Edition, PROCESSOR_REVISION, CLASSPATH, CommonProgramW6432, ComSpec, ProgramData, ProgramW6432, TEMP, HOMEPATH, SystemRoot, PROCESSOR_IDENTIFIER, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), ProgramFiles, PUBLIC, windir, NUMBER_OF_PROCESSORS, =::, IDEA_INITIAL_DIRECTORY]
+2023-10-22T18:12:02.030+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2023-10-22T18:12:02.030+0900 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 3612). The daemon log file: C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\daemon\8.2.1\daemon-3612.out.log
+2023-10-22T18:12:02.033+0900 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 512 MiB]
+2023-10-22T18:12:02.039+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2023-10-22T18:12:02.039+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=efc8dbba-e011-4d1a-9002-d8e6ca7124aa,javaHome=C:\Program Files\Java\jdk-11,daemonRegistryDir=C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\daemon,pid=3612,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=KR,-Duser.language=ko,-Duser.variant]
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 24s
+4 actionable tasks: 2 executed, 2 up-to-date
+2023-10-22T18:12:23.577+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2023-10-22T18:12:23.595+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-10-22T18:12:23.595+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=6ca780c4-1919-4507-9717-3c3e2ab52b24, currentDir=C:\Users\shon5\IdeaProjects\servlet}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:62549 to /127.0.0.1:62550]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@2789e9de with state Busy
+2023-10-22T18:12:23.595+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=6ca780c4-1919-4507-9717-3c3e2ab52b24, currentDir=C:\Users\shon5\IdeaProjects\servlet}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:62549 to /127.0.0.1:62550]
+2023-10-22T18:12:23.596+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-10-22T18:12:23.596+0900 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-22T18:12:23.596+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-22T18:12:23.599+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-10-22T18:12:23.600+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-10-22T18:12:23.603+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-10-22T18:12:23.604+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@35550717]
+2023-10-22T18:12:23.604+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@35550717]
+2023-10-22T18:12:23.605+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-10-22T18:12:23.606+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=6ca780c4-1919-4507-9717-3c3e2ab52b24, currentDir=C:\Users\shon5\IdeaProjects\servlet}
+2023-10-22T18:12:23.655+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 19: received class org.gradle.launcher.daemon.protocol.CloseInput
+2023-10-22T18:12:23.655+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 19: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@3febc3d9
+2023-10-22T18:12:23.665+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 19: received class org.gradle.launcher.daemon.protocol.Finished
+2023-10-22T18:12:23.665+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 19: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@2b495db4
+2023-10-22T18:12:23.666+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@2b495db4
+2023-10-22T18:12:23.666+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: stopping connection
+2023-10-22T18:12:23.668+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2023-10-22T18:12:23.668+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 19: received null
+2023-10-22T18:12:23.668+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 19: Received end-of-input from client.
+2023-10-22T18:12:23.669+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: stopping connection
+2023-10-22T18:12:31.957+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-10-22T18:12:31.957+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-10-22T18:12:31.957+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-10-22T18:12:31.958+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-10-22T18:12:31.958+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-10-22T18:12:31.959+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-10-22T18:12:32.488+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:62598 to /127.0.0.1:62549.
+2023-10-22T18:12:32.492+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 126: received class org.gradle.launcher.daemon.protocol.Build
+2023-10-22T18:12:32.492+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 126: Received non-IO message from client: Build{id=76d63edf-452e-4e1b-9611-8f85f9ca4c5d, currentDir=C:\Users\shon5\IdeaProjects\servlet}
+2023-10-22T18:12:32.492+0900 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=76d63edf-452e-4e1b-9611-8f85f9ca4c5d, currentDir=C:\Users\shon5\IdeaProjects\servlet}.
+2023-10-22T18:12:32.492+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=76d63edf-452e-4e1b-9611-8f85f9ca4c5d, currentDir=C:\Users\shon5\IdeaProjects\servlet} with connection: socket connection from /127.0.0.1:62549 to /127.0.0.1:62598.
+2023-10-22T18:12:32.492+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=76d63edf-452e-4e1b-9611-8f85f9ca4c5d, currentDir=C:\Users\shon5\IdeaProjects\servlet}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:62549 to /127.0.0.1:62598] after 0.0 minutes of idle
+2023-10-22T18:12:32.492+0900 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-22T18:12:32.493+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-22T18:12:32.493+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-10-22T18:12:32.493+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-10-22T18:12:32.494+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-10-22T18:12:32.495+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-10-22T18:12:32.495+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-10-22T18:12:32.495+0900 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=76d63edf-452e-4e1b-9611-8f85f9ca4c5d, currentDir=C:\Users\shon5\IdeaProjects\servlet}. Dispatching build started information...
+2023-10-22T18:12:32.495+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@51749405
+2023-10-22T18:12:32.496+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, LOCALAPPDATA, PROCESSOR_LEVEL, IntelliJ IDEA, USERDOMAIN, LOGONSERVER, FPS_BROWSER_APP_PROFILE_STRING, JAVA_HOME, SESSIONNAME, ALLUSERSPROFILE, PROCESSOR_ARCHITECTURE, PSModulePath, SystemDrive, OneDrive, APPDATA, USERNAME, ProgramFiles(x86), CommonProgramFiles, Path, FPS_BROWSER_USER_PROFILE_STRING, PATHEXT, DriverData, OS, OneDriveConsumer, COMPUTERNAME, IntelliJ IDEA Community Edition, PROCESSOR_REVISION, CLASSPATH, CommonProgramW6432, ComSpec, ProgramData, ProgramW6432, TEMP, HOMEPATH, SystemRoot, PROCESSOR_IDENTIFIER, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), ProgramFiles, PUBLIC, windir, NUMBER_OF_PROCESSORS, =::, IDEA_INITIAL_DIRECTORY]
+2023-10-22T18:12:32.497+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2023-10-22T18:12:32.497+0900 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 3612). The daemon log file: C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\daemon\8.2.1\daemon-3612.out.log
+2023-10-22T18:12:32.499+0900 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting 2nd build in daemon [uptime: 31.237 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 16% of 384 MiB]
+2023-10-22T18:12:32.500+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2023-10-22T18:12:32.500+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=efc8dbba-e011-4d1a-9002-d8e6ca7124aa,javaHome=C:\Program Files\Java\jdk-11,daemonRegistryDir=C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\daemon,pid=3612,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=KR,-Duser.language=ko,-Duser.variant]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.16)
+
+2023-10-22 18:12:34.211  INFO 19372 --- [           main] hello.servlet.ServletApplication         : Starting ServletApplication using Java 11.0.19 on DESKTOP-1N3DA16 with PID 19372 (C:\Users\shon5\IdeaProjects\servlet\build\classes\java\main started by shon5 in C:\Users\shon5\IdeaProjects\servlet)
+2023-10-22 18:12:34.214  INFO 19372 --- [           main] hello.servlet.ServletApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-10-22 18:12:35.344  INFO 19372 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-10-22 18:12:35.356  INFO 19372 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-22 18:12:35.356  INFO 19372 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-22 18:12:35.505  INFO 19372 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-22 18:12:35.505  INFO 19372 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1225 ms
+2023-10-22 18:12:35.747  INFO 19372 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2023-10-22 18:12:35.928  INFO 19372 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-10-22 18:12:35.939  INFO 19372 --- [           main] hello.servlet.ServletApplication         : Started ServletApplication in 2.33 seconds (JVM running for 2.762)
+2023-10-22 18:12:51.568 DEBUG 19372 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [0]
+2023-10-22 18:12:51.569 DEBUG 19372 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Received [GET /request-param?username=hello&age=20 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+[전체 파라미터 조회] - start
+username=hello
+age=20
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = hello
+age = 20
+2023-10-22 18:12:51.610 DEBUG 19372 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [800]
+2023-10-22 18:12:51.610 DEBUG 19372 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-22 18:12:51.611 DEBUG 19372 --- [nio-8000-exec-1] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@697b5032:org.apache.tomcat.util.net.NioChannel@6566552d:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:62614]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-22 21:03:55.497 DEBUG 19372 --- [nio-8000-exec-4] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [800]
+2023-10-22 21:03:55.504 DEBUG 19372 --- [nio-8000-exec-4] o.a.coyote.http11.Http11InputBuffer      : Received [GET /request-param?username=hello&age=20?username=asdf&age=1000 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+[전체 파라미터 조회] - start
+username=hello
+age=20?username=asdf
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = hello
+age = 20?username=asdf
+2023-10-22 21:03:55.523 DEBUG 19372 --- [nio-8000-exec-4] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [797]
+2023-10-22 21:03:55.523 DEBUG 19372 --- [nio-8000-exec-4] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-22 21:03:55.524 DEBUG 19372 --- [nio-8000-exec-4] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@40f9a0de:org.apache.tomcat.util.net.NioChannel@4e3e56b1:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:55283]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-22 21:04:32.735 DEBUG 19372 --- [nio-8000-exec-6] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [797]
+2023-10-22 21:04:32.735 DEBUG 19372 --- [nio-8000-exec-6] o.a.coyote.http11.Http11InputBuffer      : Received [GET /request-param?username=hello&age=20&username=asdf&age=1000 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+[전체 파라미터 조회] - start
+username=hello
+age=20
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = hello
+age = 20
+2023-10-22 21:04:32.741 DEBUG 19372 --- [nio-8000-exec-6] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [797]
+2023-10-22 21:04:32.741 DEBUG 19372 --- [nio-8000-exec-6] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-22 21:04:32.742 DEBUG 19372 --- [nio-8000-exec-6] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@40f9a0de:org.apache.tomcat.util.net.NioChannel@4e3e56b1:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:55283]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-22 21:04:52.102 DEBUG 19372 --- [nio-8000-exec-5] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [797]
+2023-10-22 21:04:52.103 DEBUG 19372 --- [nio-8000-exec-5] o.a.coyote.http11.Http11InputBuffer      : Received [GET /request-param?username=hello&age=20&username=asdf&age=1000 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+[전체 파라미터 조회] - start
+username=hello
+age=20
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = hello
+age = 20
+2023-10-22 21:04:52.105 DEBUG 19372 --- [nio-8000-exec-5] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [823]
+2023-10-22 21:04:52.106 DEBUG 19372 --- [nio-8000-exec-5] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-22 21:04:52.106 DEBUG 19372 --- [nio-8000-exec-5] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@40f9a0de:org.apache.tomcat.util.net.NioChannel@4e3e56b1:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:55283]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-22 21:05:00.728 DEBUG 19372 --- [nio-8000-exec-8] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [823]
+2023-10-22 21:05:00.728 DEBUG 19372 --- [nio-8000-exec-8] o.a.coyote.http11.Http11InputBuffer      : Received [GET /request-param?username=hello&age=20&username=asdf HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+[전체 파라미터 조회] - start
+username=hello
+age=20
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = hello
+age = 20
+2023-10-22 21:05:00.730 DEBUG 19372 --- [nio-8000-exec-8] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [788]
+2023-10-22 21:05:00.730 DEBUG 19372 --- [nio-8000-exec-8] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-22 21:05:00.730 DEBUG 19372 --- [nio-8000-exec-8] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@40f9a0de:org.apache.tomcat.util.net.NioChannel@4e3e56b1:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:55283]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-22 21:05:33.180 DEBUG 19372 --- [nio-8000-exec-9] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [788]
+2023-10-22 21:05:33.181 DEBUG 19372 --- [nio-8000-exec-9] o.a.coyote.http11.Http11InputBuffer      : Received [GET /request-param?username=hello&age=20&username=asdf HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+[전체 파라미터 조회] - start
+username=hello
+age=20
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = hello
+age = 20
+2023-10-22 21:05:33.183 DEBUG 19372 --- [nio-8000-exec-9] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [814]
+2023-10-22 21:05:33.183 DEBUG 19372 --- [nio-8000-exec-9] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-22 21:05:33.183 DEBUG 19372 --- [nio-8000-exec-9] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@40f9a0de:org.apache.tomcat.util.net.NioChannel@4e3e56b1:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:55283]], Status in: [OPEN_READ], State out: [OPEN]
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ServletApplication.main()'.
+> Build cancelled while executing task ':ServletApplication.main()'
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 2h 53m 34s
+3 actionable tasks: 1 executed, 2 up-to-date
+2023-10-22T21:06:06.551+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2023-10-22T21:06:06.568+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Cancel: daemon is busy, sleeping until state changes.
+2023-10-22T21:06:06.568+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=76d63edf-452e-4e1b-9611-8f85f9ca4c5d, currentDir=C:\Users\shon5\IdeaProjects\servlet}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:62549 to /127.0.0.1:62598]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@2789e9de with state Canceled
+2023-10-22T21:06:06.568+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=76d63edf-452e-4e1b-9611-8f85f9ca4c5d, currentDir=C:\Users\shon5\IdeaProjects\servlet}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:62549 to /127.0.0.1:62598]
+2023-10-22T21:06:06.568+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-10-22T21:06:06.568+0900 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-22T21:06:06.568+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-22T21:06:06.570+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-10-22T21:06:06.570+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-10-22T21:06:06.572+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-10-22T21:06:06.572+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@5b11b823]
+2023-10-22T21:06:06.572+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@5b11b823]
+2023-10-22T21:06:06.572+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Cancel: daemon is idle now.
+2023-10-22T21:06:06.572+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-10-22T21:06:06.582+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=76d63edf-452e-4e1b-9611-8f85f9ca4c5d, currentDir=C:\Users\shon5\IdeaProjects\servlet}
+2023-10-22T21:06:06.589+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 126: received class org.gradle.launcher.daemon.protocol.Finished
+2023-10-22T21:06:06.589+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 126: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@2bde3a2b
+2023-10-22T21:06:06.589+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@2bde3a2b
+2023-10-22T21:06:06.589+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: stopping connection
+2023-10-22T21:06:06.589+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2023-10-22T21:06:06.590+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 126: received null
+2023-10-22T21:06:06.591+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 126: Received end-of-input from client.
+2023-10-22T21:06:06.591+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: stopping connection
+2023-10-22T21:06:07.951+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:55312 to /127.0.0.1:62549.
+2023-10-22T21:06:07.955+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 196: received class org.gradle.launcher.daemon.protocol.Build
+2023-10-22T21:06:07.955+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 196: Received non-IO message from client: Build{id=2c6f3122-d80d-4f7a-8414-18504425cc61, currentDir=C:\Users\shon5\IdeaProjects\servlet}
+2023-10-22T21:06:07.955+0900 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=2c6f3122-d80d-4f7a-8414-18504425cc61, currentDir=C:\Users\shon5\IdeaProjects\servlet}.
+2023-10-22T21:06:07.955+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=2c6f3122-d80d-4f7a-8414-18504425cc61, currentDir=C:\Users\shon5\IdeaProjects\servlet} with connection: socket connection from /127.0.0.1:62549 to /127.0.0.1:55312.
+2023-10-22T21:06:07.956+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=2c6f3122-d80d-4f7a-8414-18504425cc61, currentDir=C:\Users\shon5\IdeaProjects\servlet}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:62549 to /127.0.0.1:55312] after 0.0 minutes of idle
+2023-10-22T21:06:07.956+0900 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-22T21:06:07.956+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-22T21:06:07.956+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-10-22T21:06:07.957+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-10-22T21:06:07.958+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-10-22T21:06:07.958+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-10-22T21:06:07.959+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-10-22T21:06:07.959+0900 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=2c6f3122-d80d-4f7a-8414-18504425cc61, currentDir=C:\Users\shon5\IdeaProjects\servlet}. Dispatching build started information...
+2023-10-22T21:06:07.959+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@6105defd
+2023-10-22T21:06:07.960+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, LOCALAPPDATA, PROCESSOR_LEVEL, IntelliJ IDEA, USERDOMAIN, LOGONSERVER, FPS_BROWSER_APP_PROFILE_STRING, JAVA_HOME, SESSIONNAME, ALLUSERSPROFILE, PROCESSOR_ARCHITECTURE, PSModulePath, SystemDrive, OneDrive, APPDATA, USERNAME, ProgramFiles(x86), CommonProgramFiles, Path, FPS_BROWSER_USER_PROFILE_STRING, PATHEXT, DriverData, OS, OneDriveConsumer, COMPUTERNAME, IntelliJ IDEA Community Edition, PROCESSOR_REVISION, CLASSPATH, CommonProgramW6432, ComSpec, ProgramData, ProgramW6432, TEMP, HOMEPATH, SystemRoot, PROCESSOR_IDENTIFIER, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), ProgramFiles, PUBLIC, windir, NUMBER_OF_PROCESSORS, =::, IDEA_INITIAL_DIRECTORY]
+2023-10-22T21:06:07.961+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2023-10-22T21:06:07.961+0900 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 3612). The daemon log file: C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\daemon\8.2.1\daemon-3612.out.log
+2023-10-22T21:06:07.962+0900 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting 3rd build in daemon [uptime: 2 hrs 54 mins 6.7 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 17% of 384 MiB]
+2023-10-22T21:06:07.962+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2023-10-22T21:06:07.963+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=efc8dbba-e011-4d1a-9002-d8e6ca7124aa,javaHome=C:\Program Files\Java\jdk-11,daemonRegistryDir=C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\daemon,pid=3612,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=KR,-Duser.language=ko,-Duser.variant]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.16)
+
+2023-10-22 21:06:13.658  INFO 21536 --- [           main] hello.servlet.ServletApplication         : Starting ServletApplication using Java 11.0.19 on DESKTOP-1N3DA16 with PID 21536 (C:\Users\shon5\IdeaProjects\servlet\build\classes\java\main started by shon5 in C:\Users\shon5\IdeaProjects\servlet)
+2023-10-22 21:06:13.661  INFO 21536 --- [           main] hello.servlet.ServletApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-10-22 21:06:14.770  INFO 21536 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-10-22 21:06:14.781  INFO 21536 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-22 21:06:14.781  INFO 21536 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-22 21:06:14.890  INFO 21536 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-22 21:06:14.891  INFO 21536 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1173 ms
+2023-10-22 21:06:15.141  INFO 21536 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2023-10-22 21:06:15.271  INFO 21536 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-10-22 21:06:15.279  INFO 21536 --- [           main] hello.servlet.ServletApplication         : Started ServletApplication in 2.063 seconds (JVM running for 2.451)
+2023-10-22 21:06:22.582 DEBUG 21536 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [0]
+2023-10-22 21:06:22.583 DEBUG 21536 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Received [GET /request-param?username=hello&age=20&username=asdf HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+[전체 파라미터 조회] - start
+username=hello
+age=20
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = hello
+age = 20
+
+[이름이 같은 복수 파라미터 조회]
+username = hello
+username = hello
+2023-10-22 21:06:22.626 DEBUG 21536 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [814]
+2023-10-22 21:06:22.626 DEBUG 21536 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-22 21:06:22.627 DEBUG 21536 --- [nio-8000-exec-1] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7e732b3:org.apache.tomcat.util.net.NioChannel@60b7ba67:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:55318]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-22 21:06:51.752 DEBUG 21536 --- [nio-8000-exec-2] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [814]
+2023-10-22 21:06:51.753 DEBUG 21536 --- [nio-8000-exec-2] o.a.coyote.http11.Http11InputBuffer      : Received [GET /request-param?username=hello&username=asdf&age=20 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+[전체 파라미터 조회] - start
+username=hello
+age=20
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = hello
+age = 20
+
+[이름이 같은 복수 파라미터 조회]
+username = hello
+username = hello
+2023-10-22 21:06:51.754 DEBUG 21536 --- [nio-8000-exec-2] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [788]
+2023-10-22 21:06:51.755 DEBUG 21536 --- [nio-8000-exec-2] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-22 21:06:51.755 DEBUG 21536 --- [nio-8000-exec-2] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7e732b3:org.apache.tomcat.util.net.NioChannel@60b7ba67:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:55318]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-22 21:07:02.254 DEBUG 21536 --- [nio-8000-exec-3] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [788]
+2023-10-22 21:07:02.254 DEBUG 21536 --- [nio-8000-exec-3] o.a.coyote.http11.Http11InputBuffer      : Received [GET /request-param?username=hello&username=asdf&age=20 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+[전체 파라미터 조회] - start
+username=hello
+age=20
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = hello
+age = 20
+
+[이름이 같은 복수 파라미터 조회]
+username = hello
+username = hello
+2023-10-22 21:07:02.256 DEBUG 21536 --- [nio-8000-exec-3] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [814]
+2023-10-22 21:07:02.256 DEBUG 21536 --- [nio-8000-exec-3] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-22 21:07:02.256 DEBUG 21536 --- [nio-8000-exec-3] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7e732b3:org.apache.tomcat.util.net.NioChannel@60b7ba67:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:55318]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-22 21:07:25.350 DEBUG 21536 --- [nio-8000-exec-5] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [814]
+2023-10-22 21:07:25.350 DEBUG 21536 --- [nio-8000-exec-5] o.a.coyote.http11.Http11InputBuffer      : Received [GET /request-param?username=hello&username=asdf&age=20 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+[전체 파라미터 조회] - start
+username=hello
+age=20
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = hello
+age = 20
+
+[이름이 같은 복수 파라미터 조회]
+username = hello
+username = hello
+2023-10-22 21:07:25.352 DEBUG 21536 --- [nio-8000-exec-5] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [814]
+2023-10-22 21:07:25.352 DEBUG 21536 --- [nio-8000-exec-5] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-22 21:07:25.353 DEBUG 21536 --- [nio-8000-exec-5] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7e732b3:org.apache.tomcat.util.net.NioChannel@60b7ba67:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:55318]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-22 21:07:29.853 DEBUG 21536 --- [nio-8000-exec-6] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [814]
+2023-10-22 21:07:29.853 DEBUG 21536 --- [nio-8000-exec-6] o.a.coyote.http11.Http11InputBuffer      : Received [GET /request-param?username=hello&username=asdf&age=20 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+[전체 파라미터 조회] - start
+username=hello
+age=20
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = hello
+age = 20
+
+[이름이 같은 복수 파라미터 조회]
+username = hello
+username = hello
+2023-10-22 21:07:29.855 DEBUG 21536 --- [nio-8000-exec-6] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [814]
+2023-10-22 21:07:29.855 DEBUG 21536 --- [nio-8000-exec-6] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-22 21:07:29.855 DEBUG 21536 --- [nio-8000-exec-6] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7e732b3:org.apache.tomcat.util.net.NioChannel@60b7ba67:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:55318]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-22 21:07:30.964 DEBUG 21536 --- [nio-8000-exec-7] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [814]
+2023-10-22 21:07:30.964 DEBUG 21536 --- [nio-8000-exec-7] o.a.coyote.http11.Http11InputBuffer      : Received [GET /request-param?username=hello&username=asdf&age=20 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+[전체 파라미터 조회] - start
+username=hello
+age=20
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = hello
+age = 20
+
+[이름이 같은 복수 파라미터 조회]
+username = hello
+username = hello
+2023-10-22 21:07:30.965 DEBUG 21536 --- [nio-8000-exec-7] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [814]
+2023-10-22 21:07:30.966 DEBUG 21536 --- [nio-8000-exec-7] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-22 21:07:30.966 DEBUG 21536 --- [nio-8000-exec-7] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7e732b3:org.apache.tomcat.util.net.NioChannel@60b7ba67:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:55318]], Status in: [OPEN_READ], State out: [OPEN]
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ServletApplication.main()'.
+> Build cancelled while executing task ':ServletApplication.main()'
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 1m 27s
+3 actionable tasks: 2 executed, 1 up-to-date
+2023-10-22T21:07:35.388+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2023-10-22T21:07:35.405+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=2c6f3122-d80d-4f7a-8414-18504425cc61, currentDir=C:\Users\shon5\IdeaProjects\servlet}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:62549 to /127.0.0.1:55312]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@2789e9de with state Canceled
+2023-10-22T21:07:35.405+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=2c6f3122-d80d-4f7a-8414-18504425cc61, currentDir=C:\Users\shon5\IdeaProjects\servlet}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:62549 to /127.0.0.1:55312]
+2023-10-22T21:07:35.405+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-10-22T21:07:35.405+0900 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-22T21:07:35.405+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-22T21:07:35.407+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-10-22T21:07:35.407+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-10-22T21:07:35.409+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-10-22T21:07:35.409+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Cancel: daemon is idle now.
+2023-10-22T21:07:35.409+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-10-22T21:07:35.409+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@3ccbcdb6]
+2023-10-22T21:07:35.410+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@3ccbcdb6]
+2023-10-22T21:07:35.411+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=2c6f3122-d80d-4f7a-8414-18504425cc61, currentDir=C:\Users\shon5\IdeaProjects\servlet}
+2023-10-22T21:07:35.412+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 196: received class org.gradle.launcher.daemon.protocol.Finished
+2023-10-22T21:07:35.413+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 196: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@3f4dd60d
+2023-10-22T21:07:35.413+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2023-10-22T21:07:35.413+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 196: received null
+2023-10-22T21:07:35.413+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 196: Received end-of-input from client.
+2023-10-22T21:07:35.413+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+2023-10-22T21:07:35.413+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: stopping connection
+2023-10-22T21:07:35.414+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: stopping connection
+2023-10-22T21:07:35.624+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:55328 to /127.0.0.1:62549.
+2023-10-22T21:07:35.628+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 272: received class org.gradle.launcher.daemon.protocol.Build
+2023-10-22T21:07:35.628+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 272: Received non-IO message from client: Build{id=dd2bd3ec-07f7-4b73-a5ee-2843d36d6868, currentDir=C:\Users\shon5\IdeaProjects\servlet}
+2023-10-22T21:07:35.629+0900 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=dd2bd3ec-07f7-4b73-a5ee-2843d36d6868, currentDir=C:\Users\shon5\IdeaProjects\servlet}.
+2023-10-22T21:07:35.629+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=dd2bd3ec-07f7-4b73-a5ee-2843d36d6868, currentDir=C:\Users\shon5\IdeaProjects\servlet} with connection: socket connection from /127.0.0.1:62549 to /127.0.0.1:55328.
+2023-10-22T21:07:35.629+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=dd2bd3ec-07f7-4b73-a5ee-2843d36d6868, currentDir=C:\Users\shon5\IdeaProjects\servlet}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:62549 to /127.0.0.1:55328] after 0.0 minutes of idle
+2023-10-22T21:07:35.630+0900 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-22T21:07:35.630+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-22T21:07:35.630+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-10-22T21:07:35.631+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-10-22T21:07:35.632+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-10-22T21:07:35.633+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-10-22T21:07:35.633+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-10-22T21:07:35.633+0900 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=dd2bd3ec-07f7-4b73-a5ee-2843d36d6868, currentDir=C:\Users\shon5\IdeaProjects\servlet}. Dispatching build started information...
+2023-10-22T21:07:35.633+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@1be0076a
+2023-10-22T21:07:35.634+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, LOCALAPPDATA, PROCESSOR_LEVEL, IntelliJ IDEA, USERDOMAIN, LOGONSERVER, FPS_BROWSER_APP_PROFILE_STRING, JAVA_HOME, SESSIONNAME, ALLUSERSPROFILE, PROCESSOR_ARCHITECTURE, PSModulePath, SystemDrive, OneDrive, APPDATA, USERNAME, ProgramFiles(x86), CommonProgramFiles, Path, FPS_BROWSER_USER_PROFILE_STRING, PATHEXT, DriverData, OS, OneDriveConsumer, COMPUTERNAME, IntelliJ IDEA Community Edition, PROCESSOR_REVISION, CLASSPATH, CommonProgramW6432, ComSpec, ProgramData, ProgramW6432, TEMP, HOMEPATH, SystemRoot, PROCESSOR_IDENTIFIER, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), ProgramFiles, PUBLIC, windir, NUMBER_OF_PROCESSORS, =::, IDEA_INITIAL_DIRECTORY]
+2023-10-22T21:07:35.635+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2023-10-22T21:07:35.635+0900 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 3612). The daemon log file: C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\daemon\8.2.1\daemon-3612.out.log
+2023-10-22T21:07:35.635+0900 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting 4th build in daemon [uptime: 2 hrs 55 mins 34.373 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 19% of 384 MiB]
+2023-10-22T21:07:35.636+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2023-10-22T21:07:35.636+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=efc8dbba-e011-4d1a-9002-d8e6ca7124aa,javaHome=C:\Program Files\Java\jdk-11,daemonRegistryDir=C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\daemon,pid=3612,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=KR,-Duser.language=ko,-Duser.variant]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.16)
+
+2023-10-22 21:07:37.637  INFO 20200 --- [           main] hello.servlet.ServletApplication         : Starting ServletApplication using Java 11.0.19 on DESKTOP-1N3DA16 with PID 20200 (C:\Users\shon5\IdeaProjects\servlet\build\classes\java\main started by shon5 in C:\Users\shon5\IdeaProjects\servlet)
+2023-10-22 21:07:37.640  INFO 20200 --- [           main] hello.servlet.ServletApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-10-22 21:07:38.652  INFO 20200 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-10-22 21:07:38.662  INFO 20200 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-22 21:07:38.663  INFO 20200 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-22 21:07:38.762  INFO 20200 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-22 21:07:38.762  INFO 20200 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1071 ms
+2023-10-22 21:07:39.028  INFO 20200 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2023-10-22 21:07:39.163  INFO 20200 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-10-22 21:07:39.172  INFO 20200 --- [           main] hello.servlet.ServletApplication         : Started ServletApplication in 1.972 seconds (JVM running for 2.345)
+2023-10-22 21:07:46.253 DEBUG 20200 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [0]
+2023-10-22 21:07:46.253 DEBUG 20200 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Received [GET /request-param?username=hello&username=asdf&age=20 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+[전체 파라미터 조회] - start
+username=hello
+age=20
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = hello
+age = 20
+
+[이름이 같은 복수 파라미터 조회]
+username = hello
+username = asdf
+2023-10-22 21:07:46.294 DEBUG 20200 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [814]
+2023-10-22 21:07:46.294 DEBUG 20200 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-22 21:07:46.294 DEBUG 20200 --- [nio-8000-exec-1] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@161d3820:org.apache.tomcat.util.net.NioChannel@64ddea4c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:55333]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-22 21:08:22.781 DEBUG 20200 --- [nio-8000-exec-2] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [814]
+2023-10-22 21:08:22.781 DEBUG 20200 --- [nio-8000-exec-2] o.a.coyote.http11.Http11InputBuffer      : Received [GET /request-param?username=hello&username=asdf&age=20 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+[전체 파라미터 조회] - start
+username=hello
+age=20
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = hello
+age = 20
+
+[이름이 같은 복수 파라미터 조회]
+username = hello
+username = asdf
+2023-10-22 21:08:22.783 DEBUG 20200 --- [nio-8000-exec-2] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [814]
+2023-10-22 21:08:22.783 DEBUG 20200 --- [nio-8000-exec-2] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-22 21:08:22.784 DEBUG 20200 --- [nio-8000-exec-2] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@161d3820:org.apache.tomcat.util.net.NioChannel@64ddea4c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:55333]], Status in: [OPEN_READ], State out: [OPEN]
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ServletApplication.main()'.
+> Build cancelled while executing task ':ServletApplication.main()'
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 4h 39m 14s
+3 actionable tasks: 2 executed, 1 up-to-date
+2023-10-23T01:46:49.970+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2023-10-23T01:46:49.989+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Cancel: daemon is busy, sleeping until state changes.
+2023-10-23T01:46:49.989+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=dd2bd3ec-07f7-4b73-a5ee-2843d36d6868, currentDir=C:\Users\shon5\IdeaProjects\servlet}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:62549 to /127.0.0.1:55328]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@2789e9de with state Canceled
+2023-10-23T01:46:49.990+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=dd2bd3ec-07f7-4b73-a5ee-2843d36d6868, currentDir=C:\Users\shon5\IdeaProjects\servlet}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:62549 to /127.0.0.1:55328]
+2023-10-23T01:46:49.990+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-10-23T01:46:49.990+0900 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-23T01:46:49.990+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-23T01:46:49.993+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-10-23T01:46:49.993+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-10-23T01:46:49.996+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-10-23T01:46:49.996+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Cancel: daemon is idle now.
+2023-10-23T01:46:49.996+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-10-23T01:46:49.996+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@5cd7e29e]
+2023-10-23T01:46:49.997+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@5cd7e29e]
+2023-10-23T01:46:49.998+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=dd2bd3ec-07f7-4b73-a5ee-2843d36d6868, currentDir=C:\Users\shon5\IdeaProjects\servlet}
+2023-10-23T01:46:50.006+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 272: received class org.gradle.launcher.daemon.protocol.Finished
+2023-10-23T01:46:50.006+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 272: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@696de776
+2023-10-23T01:46:50.006+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@696de776
+2023-10-23T01:46:50.006+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2023-10-23T01:46:50.007+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 272: received null
+2023-10-23T01:46:50.007+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: stopping connection
+2023-10-23T01:46:50.007+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 272: Received end-of-input from client.
+2023-10-23T01:46:50.008+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: stopping connection
+2023-10-23T01:46:50.126+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:58791 to /127.0.0.1:62549.
+2023-10-23T01:46:50.133+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 347: received class org.gradle.launcher.daemon.protocol.Build
+2023-10-23T01:46:50.133+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 347: Received non-IO message from client: Build{id=5704d5bc-ca6e-463d-bd0f-de56eb8e31ac, currentDir=C:\Users\shon5\IdeaProjects\servlet}
+2023-10-23T01:46:50.133+0900 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=5704d5bc-ca6e-463d-bd0f-de56eb8e31ac, currentDir=C:\Users\shon5\IdeaProjects\servlet}.
+2023-10-23T01:46:50.133+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=5704d5bc-ca6e-463d-bd0f-de56eb8e31ac, currentDir=C:\Users\shon5\IdeaProjects\servlet} with connection: socket connection from /127.0.0.1:62549 to /127.0.0.1:58791.
+2023-10-23T01:46:50.134+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=5704d5bc-ca6e-463d-bd0f-de56eb8e31ac, currentDir=C:\Users\shon5\IdeaProjects\servlet}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:62549 to /127.0.0.1:58791] after 0.0 minutes of idle
+2023-10-23T01:46:50.134+0900 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-23T01:46:50.134+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-23T01:46:50.134+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-10-23T01:46:50.135+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-10-23T01:46:50.135+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-10-23T01:46:50.136+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-10-23T01:46:50.136+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-10-23T01:46:50.136+0900 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=5704d5bc-ca6e-463d-bd0f-de56eb8e31ac, currentDir=C:\Users\shon5\IdeaProjects\servlet}. Dispatching build started information...
+2023-10-23T01:46:50.136+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@2d40028b
+2023-10-23T01:46:50.137+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, LOCALAPPDATA, PROCESSOR_LEVEL, IntelliJ IDEA, USERDOMAIN, LOGONSERVER, FPS_BROWSER_APP_PROFILE_STRING, JAVA_HOME, SESSIONNAME, ALLUSERSPROFILE, PROCESSOR_ARCHITECTURE, PSModulePath, SystemDrive, OneDrive, APPDATA, USERNAME, ProgramFiles(x86), CommonProgramFiles, Path, FPS_BROWSER_USER_PROFILE_STRING, PATHEXT, DriverData, OS, OneDriveConsumer, COMPUTERNAME, IntelliJ IDEA Community Edition, PROCESSOR_REVISION, CLASSPATH, CommonProgramW6432, ComSpec, ProgramData, ProgramW6432, TEMP, HOMEPATH, SystemRoot, PROCESSOR_IDENTIFIER, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), ProgramFiles, PUBLIC, windir, NUMBER_OF_PROCESSORS, =::, IDEA_INITIAL_DIRECTORY]
+2023-10-23T01:46:50.138+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2023-10-23T01:46:50.138+0900 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 3612). The daemon log file: C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\daemon\8.2.1\daemon-3612.out.log
+2023-10-23T01:46:50.140+0900 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting 5th build in daemon [uptime: 7 hrs 34 mins 48.878 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 20% of 384 MiB]
+2023-10-23T01:46:50.140+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2023-10-23T01:46:50.140+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=efc8dbba-e011-4d1a-9002-d8e6ca7124aa,javaHome=C:\Program Files\Java\jdk-11,daemonRegistryDir=C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\daemon,pid=3612,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=KR,-Duser.language=ko,-Duser.variant]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.16)
+
+2023-10-23 01:46:55.126  INFO 4276 --- [           main] hello.servlet.ServletApplication         : Starting ServletApplication using Java 11.0.19 on DESKTOP-1N3DA16 with PID 4276 (C:\Users\shon5\IdeaProjects\servlet\build\classes\java\main started by shon5 in C:\Users\shon5\IdeaProjects\servlet)
+2023-10-23 01:46:55.129  INFO 4276 --- [           main] hello.servlet.ServletApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-10-23 01:46:56.099  INFO 4276 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-10-23 01:46:56.109  INFO 4276 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-23 01:46:56.109  INFO 4276 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-23 01:46:56.206  INFO 4276 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-23 01:46:56.206  INFO 4276 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1031 ms
+2023-10-23 01:46:56.439  INFO 4276 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2023-10-23 01:46:56.572  INFO 4276 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-10-23 01:46:56.582  INFO 4276 --- [           main] hello.servlet.ServletApplication         : Started ServletApplication in 1.902 seconds (JVM running for 2.275)
+2023-10-23 01:47:18.887 DEBUG 4276 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [0]
+2023-10-23 01:47:18.887 DEBUG 4276 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Received [GET /articles HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Sec-Purpose: prefetch;prerender
+Purpose: prefetch
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+2023-10-23 01:47:18.917  INFO 4276 --- [nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-23 01:47:18.918  INFO 4276 --- [nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-23 01:47:18.919  INFO 4276 --- [nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-23 01:47:18.986 DEBUG 4276 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [799]
+2023-10-23 01:47:18.987 DEBUG 4276 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-23 01:47:18.987 DEBUG 4276 --- [nio-8000-exec-1] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@760a569a:org.apache.tomcat.util.net.NioChannel@7eec90c2:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:58809]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-23 01:47:22.529 DEBUG 4276 --- [nio-8000-exec-2] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [799]
+2023-10-23 01:47:22.530 DEBUG 4276 --- [nio-8000-exec-2] o.a.coyote.http11.Http11InputBuffer      : Received [GET / HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Sec-Purpose: prefetch;prerender
+Purpose: prefetch
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+2023-10-23 01:47:22.548 DEBUG 4276 --- [nio-8000-exec-2] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [791]
+2023-10-23 01:47:22.549 DEBUG 4276 --- [nio-8000-exec-2] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-23 01:47:22.549 DEBUG 4276 --- [nio-8000-exec-2] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@760a569a:org.apache.tomcat.util.net.NioChannel@7eec90c2:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:58809]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-23 01:47:29.143 DEBUG 4276 --- [nio-8000-exec-3] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [791]
+2023-10-23 01:47:29.143 DEBUG 4276 --- [nio-8000-exec-3] o.a.coyote.http11.Http11InputBuffer      : Received [GET /basic/hello-form.html HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+2023-10-23 01:47:29.150 DEBUG 4276 --- [nio-8000-exec-3] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [760]
+2023-10-23 01:47:29.150 DEBUG 4276 --- [nio-8000-exec-3] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-23 01:47:29.150 DEBUG 4276 --- [nio-8000-exec-3] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@760a569a:org.apache.tomcat.util.net.NioChannel@7eec90c2:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:58809]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-23 01:47:38.731 DEBUG 4276 --- [nio-8000-exec-4] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [760]
+2023-10-23 01:47:38.732 DEBUG 4276 --- [nio-8000-exec-4] o.a.coyote.http11.Http11InputBuffer      : Received [POST /request-param HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 19
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+Origin: http://localhost:8000
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8000/basic/hello-form.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+username=123&age=12]
+[전체 파라미터 조회] - start
+username=123
+age=12
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = 123
+age = 12
+
+[이름이 같은 복수 파라미터 조회]
+username = 123
+2023-10-23 01:47:38.747 DEBUG 4276 --- [nio-8000-exec-4] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [940]
+2023-10-23 01:47:38.747 DEBUG 4276 --- [nio-8000-exec-4] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-23 01:47:38.747 DEBUG 4276 --- [nio-8000-exec-4] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@760a569a:org.apache.tomcat.util.net.NioChannel@7eec90c2:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:58809]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-23 01:49:27.409 DEBUG 4276 --- [nio-8000-exec-7] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [940]
+2023-10-23 01:49:27.409 DEBUG 4276 --- [nio-8000-exec-7] o.a.coyote.http11.Http11InputBuffer      : Received [POST /request-param HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 19
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?1
+sec-ch-ua-platform: "Android"
+Upgrade-Insecure-Requests: 1
+Origin: http://localhost:8000
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Mobile Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8000/basic/hello-form.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+username=123&age=12]
+[전체 파라미터 조회] - start
+username=123
+age=12
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = 123
+age = 12
+
+[이름이 같은 복수 파라미터 조회]
+username = 123
+2023-10-23 01:49:27.413 DEBUG 4276 --- [nio-8000-exec-7] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [960]
+2023-10-23 01:49:27.413 DEBUG 4276 --- [nio-8000-exec-7] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-23 01:49:27.413 DEBUG 4276 --- [nio-8000-exec-7] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@57dedc7d:org.apache.tomcat.util.net.NioChannel@7eec90c2:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:58842]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-23 01:49:31.616 DEBUG 4276 --- [nio-8000-exec-8] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [960]
+2023-10-23 01:49:31.616 DEBUG 4276 --- [nio-8000-exec-8] o.a.coyote.http11.Http11InputBuffer      : Received [GET /request-param HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+[전체 파라미터 조회] - start
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = null
+age = null
+
+[이름이 같은 복수 파라미터 조회]
+2023-10-23 01:49:31.690 ERROR 4276 --- [nio-8000-exec-8] o.a.c.c.C.[.[.[/].[requestParamServlet]  : Servlet.service() for servlet [requestParamServlet] in context with path [] threw exception
+
+java.lang.NullPointerException: null
+	at hello.servlet.basic.request.RequestParamServlet.service(RequestParamServlet.java:35) ~[main/:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.80.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2023-10-23 01:49:31.707 DEBUG 4276 --- [nio-8000-exec-8] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@57dedc7d:org.apache.tomcat.util.net.NioChannel@7eec90c2:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:58842]], Status in: [OPEN_READ], State out: [CLOSED]
+2023-10-23 01:50:40.404 DEBUG 4276 --- [io-8000-exec-10] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [752]
+2023-10-23 01:50:40.405 DEBUG 4276 --- [io-8000-exec-10] o.a.coyote.http11.Http11InputBuffer      : Received [POST /request-param HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 24
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?1
+sec-ch-ua-platform: "Android"
+Upgrade-Insecure-Requests: 1
+Origin: http://localhost:8000
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Mobile Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8000/basic/hello-form.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+username=asdf&age=123123]
+[전체 파라미터 조회] - start
+username=asdf
+age=123123
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = asdf
+age = 123123
+
+[이름이 같은 복수 파라미터 조회]
+username = asdf
+2023-10-23 01:50:40.408 DEBUG 4276 --- [io-8000-exec-10] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [960]
+2023-10-23 01:50:40.408 DEBUG 4276 --- [io-8000-exec-10] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-23 01:50:40.408 DEBUG 4276 --- [io-8000-exec-10] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e24b9c6:org.apache.tomcat.util.net.NioChannel@40e34e72:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:58879]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-23 01:50:45.317 DEBUG 4276 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [960]
+2023-10-23 01:50:45.318 DEBUG 4276 --- [nio-8000-exec-1] o.a.coyote.http11.Http11InputBuffer      : Received [GET /request-param HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-1bde7b1f=6c63e7a5-1790-4390-a258-4495ccc29318
+
+]
+[전체 파라미터 조회] - start
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = null
+age = null
+
+[이름이 같은 복수 파라미터 조회]
+2023-10-23 01:50:45.321 ERROR 4276 --- [nio-8000-exec-1] o.a.c.c.C.[.[.[/].[requestParamServlet]  : Servlet.service() for servlet [requestParamServlet] in context with path [] threw exception
+
+java.lang.NullPointerException: null
+	at hello.servlet.basic.request.RequestParamServlet.service(RequestParamServlet.java:35) ~[main/:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.80.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2023-10-23 01:50:45.329 DEBUG 4276 --- [nio-8000-exec-1] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e24b9c6:org.apache.tomcat.util.net.NioChannel@40e34e72:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:58879]], Status in: [OPEN_READ], State out: [CLOSED]
+2023-10-23 01:56:39.309 DEBUG 4276 --- [nio-8000-exec-3] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [752]
+2023-10-23 01:56:39.310 DEBUG 4276 --- [nio-8000-exec-4] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [0]
+2023-10-23 01:56:39.310 DEBUG 4276 --- [nio-8000-exec-3] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1346) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1234) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:785) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:348) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2023-10-23 01:56:39.310 DEBUG 4276 --- [nio-8000-exec-4] o.a.coyote.http11.Http11InputBuffer      : Received [POST /request-param HTTP/1.1
+User-Agent: PostmanRuntime/7.33.0
+Accept: */*
+Postman-Token: b8ba9a4a-80d3-40e0-8501-29ebe53083f6
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 19
+
+username=kim&age=20]
+2023-10-23 01:56:39.311 DEBUG 4276 --- [nio-8000-exec-3] o.apache.coyote.http11.Http11Processor   : Error state [CLOSE_CONNECTION_NOW] reported while processing request
+
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1346) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1234) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:785) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:348) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.80.jar:9.0.80]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2023-10-23 01:56:39.311 DEBUG 4276 --- [nio-8000-exec-3] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@442bab01:org.apache.tomcat.util.net.NioChannel@7eec90c2:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:59197]], Status in: [OPEN_READ], State out: [CLOSED]
+[전체 파라미터 조회] - start
+username=kim
+age=20
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = kim
+age = 20
+
+[이름이 같은 복수 파라미터 조회]
+username = kim
+2023-10-23 01:56:39.312 DEBUG 4276 --- [nio-8000-exec-4] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [284]
+2023-10-23 01:56:39.312 DEBUG 4276 --- [nio-8000-exec-4] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-23 01:56:39.312 DEBUG 4276 --- [nio-8000-exec-4] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@3d67ae98:org.apache.tomcat.util.net.NioChannel@40e34e72:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:59198]], Status in: [OPEN_READ], State out: [OPEN]
+2023-10-23 01:56:59.476 DEBUG 4276 --- [nio-8000-exec-5] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [284]
+2023-10-23 01:56:59.477 DEBUG 4276 --- [nio-8000-exec-5] o.a.coyote.http11.Http11InputBuffer      : Received [POST /request-param HTTP/1.1
+User-Agent: PostmanRuntime/7.33.0
+Accept: */*
+Postman-Token: 2ee8b9c4-b26d-405c-82b6-cfed2fbe4647
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 19
+
+username=kim&age=20]
+[전체 파라미터 조회] - start
+username=kim
+age=20
+[전체 파라미터 조회] - end
+[단일 파라미터 조회]
+username = kim
+age = 20
+
+[이름이 같은 복수 파라미터 조회]
+username = kim
+2023-10-23 01:56:59.478 DEBUG 4276 --- [nio-8000-exec-5] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [284]
+2023-10-23 01:56:59.479 DEBUG 4276 --- [nio-8000-exec-5] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-10-23 01:56:59.479 DEBUG 4276 --- [nio-8000-exec-5] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@3d67ae98:org.apache.tomcat.util.net.NioChannel@40e34e72:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8000 remote=/0:0:0:0:0:0:0:1:59198]], Status in: [OPEN_READ], State out: [OPEN]
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ServletApplication.main()'.
+> Build cancelled while executing task ':ServletApplication.main()'
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 17m 21s
+3 actionable tasks: 2 executed, 1 up-to-date
+2023-10-23T02:04:11.407+0900 [DEBUG] [org.gradle.process.internal.DefaultExecHandle] Changing state to: ABORTED
+2023-10-23T02:04:11.407+0900 [DEBUG] [org.gradle.process.internal.DefaultExecHandle] Process 'command 'C:\Program Files\Java\jdk-11\bin\java.exe'' finished with exit value 1 (state: ABORTED)
+2023-10-23T02:04:11.407+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Cancel: daemon is busy, sleeping until state changes.
+2023-10-23T02:04:11.413+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2023-10-23T02:04:11.429+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Cancel: daemon is busy, sleeping until state changes.
+2023-10-23T02:04:11.429+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=5704d5bc-ca6e-463d-bd0f-de56eb8e31ac, currentDir=C:\Users\shon5\IdeaProjects\servlet}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:62549 to /127.0.0.1:58791]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@2789e9de with state Canceled
+2023-10-23T02:04:11.429+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=5704d5bc-ca6e-463d-bd0f-de56eb8e31ac, currentDir=C:\Users\shon5\IdeaProjects\servlet}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:62549 to /127.0.0.1:58791]
+2023-10-23T02:04:11.429+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-10-23T02:04:11.429+0900 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-23T02:04:11.429+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-23T02:04:11.431+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-10-23T02:04:11.431+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-10-23T02:04:11.432+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-10-23T02:04:11.432+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@adb5cbb]
+2023-10-23T02:04:11.433+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@adb5cbb]
+2023-10-23T02:04:11.433+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Cancel: daemon is idle now.
+2023-10-23T02:04:11.433+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-10-23T02:04:11.433+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=5704d5bc-ca6e-463d-bd0f-de56eb8e31ac, currentDir=C:\Users\shon5\IdeaProjects\servlet}
+2023-10-23T02:04:11.438+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 347: received class org.gradle.launcher.daemon.protocol.Finished
+2023-10-23T02:04:11.438+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 347: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@728ccb98
+2023-10-23T02:04:11.438+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@728ccb98
+2023-10-23T02:04:11.438+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: stopping connection
+2023-10-23T02:04:11.438+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2023-10-23T02:04:11.438+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 347: received null
+2023-10-23T02:04:11.439+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 347: Received end-of-input from client.
+2023-10-23T02:04:11.439+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: stopping connection
+2023-10-23T02:04:11.619+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:59367 to /127.0.0.1:62549.
+2023-10-23T02:04:11.637+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 422: received class org.gradle.launcher.daemon.protocol.StopWhenIdle
+2023-10-23T02:04:11.638+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 422: Received non-IO message from client: StopWhenIdle[id=7f1cf809-6cdd-4ecf-894a-88632f424d00]
+2023-10-23T02:04:11.639+0900 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: StopWhenIdle[id=7f1cf809-6cdd-4ecf-894a-88632f424d00].
+2023-10-23T02:04:11.640+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: StopWhenIdle[id=7f1cf809-6cdd-4ecf-894a-88632f424d00] with connection: socket connection from /127.0.0.1:62549 to /127.0.0.1:59367.
+2023-10-23T02:04:11.640+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Storing daemon stop event: stop command received
+2023-10-23T02:04:11.641+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon stop event with timestamp 1697994251641
+2023-10-23T02:04:11.642+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-10-23T02:04:11.643+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-10-23T02:04:11.644+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-10-23T02:04:11.644+0900 [LIFECYCLE] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon will be stopped at the end of the build stop command received
+2023-10-23T02:04:11.644+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to stop command received. The daemon is running a build: false
+2023-10-23T02:04:11.644+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon has stopped.
+2023-10-23T02:04:11.644+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: dispatching Success[value=null]
+2023-10-23T02:04:11.644+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+2023-10-23T02:04:11.645+0900 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+2023-10-23T02:04:11.645+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: StopWhenIdle[id=7f1cf809-6cdd-4ecf-894a-88632f424d00]
+2023-10-23T02:04:11.645+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 422: received class org.gradle.launcher.daemon.protocol.Finished
+2023-10-23T02:04:11.645+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 422: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@84ecd60
+2023-10-23T02:04:11.645+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-23T02:04:11.645+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@84ecd60
+2023-10-23T02:04:11.645+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2023-10-23T02:04:11.645+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: stopping connection
+2023-10-23T02:04:11.645+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-23T02:04:11.645+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 422: received null
+2023-10-23T02:04:11.646+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 422: Received end-of-input from client.
+2023-10-23T02:04:11.647+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: stopping connection
+2023-10-23T02:04:11.647+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-10-23T02:04:11.647+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-10-23T02:04:11.648+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-10-23T02:04:11.649+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Address removed from registry.
+2023-10-23T02:04:11.653+0900 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for jars (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\jars-9)
+2023-10-23T02:04:11.653+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on jars (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\jars-9).
+2023-10-23T02:04:11.654+0900 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] jars (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\jars-9) has last been fully cleaned up 7 hours ago
+2023-10-23T02:04:11.655+0900 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] Artifact transforms cache (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\transforms-3) has last been fully cleaned up 7 hours ago
+2023-10-23T02:04:11.655+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache Artifact transforms cache (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\transforms-3) was closed 0 times.
+2023-10-23T02:04:11.665+0900 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file content cache (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\8.2.1\fileContent)
+2023-10-23T02:04:11.666+0900 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache annotation-processors.bin (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\8.2.1\fileContent\annotation-processors.bin)
+2023-10-23T02:04:11.666+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file content cache (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\8.2.1\fileContent).
+2023-10-23T02:04:11.667+0900 [DEBUG] [org.gradle.internal.watch.vfs.impl.WatchingVirtualFileSystem] Closing VFS, dropping state
+2023-10-23T02:04:11.668+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache Generated Gradle JARs cache (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\8.2.1\generated-gradle-jars) was closed 0 times.
+2023-10-23T02:04:11.669+0900 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for artifact cache (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\modules-2)
+2023-10-23T02:04:11.669+0900 [DEBUG] [org.gradle.internal.watch.registry.impl.DefaultFileWatcherRegistry] Finished listening to file system change events
+2023-10-23T02:04:11.669+0900 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifact.bin (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\modules-2\metadata-2.106\module-artifact.bin)
+2023-10-23T02:04:11.669+0900 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\modules-2\metadata-2.106\module-metadata.bin)
+2023-10-23T02:04:11.669+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\modules-2).
+2023-10-23T02:04:11.670+0900 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] artifact cache (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\modules-2) has last been fully cleaned up 7 hours ago
+2023-10-23T02:04:11.670+0900 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for journal cache (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\journal-1)
+2023-10-23T02:04:11.670+0900 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache file-access.bin (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\journal-1\file-access.bin)
+2023-10-23T02:04:11.670+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on journal cache (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\journal-1).
+2023-10-23T02:04:11.671+0900 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file hash cache (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\8.2.1\fileHashes)
+2023-10-23T02:04:11.671+0900 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\8.2.1\fileHashes\fileHashes.bin)
+2023-10-23T02:04:11.672+0900 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache resourceHashesCache.bin (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\8.2.1\fileHashes\resourceHashesCache.bin)
+2023-10-23T02:04:11.672+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file hash cache (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\8.2.1\fileHashes).
+2023-10-23T02:04:11.672+0900 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for execution history cache (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\8.2.1\executionHistory)
+2023-10-23T02:04:11.673+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on execution history cache (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\8.2.1\executionHistory).
+2023-10-23T02:04:11.673+0900 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for Java compile cache (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\8.2.1\javaCompile)
+2023-10-23T02:04:11.673+0900 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache jarAnalysis.bin (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\8.2.1\javaCompile\jarAnalysis.bin)
+2023-10-23T02:04:11.674+0900 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache classAnalysis.bin (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\8.2.1\javaCompile\classAnalysis.bin)
+2023-10-23T02:04:11.674+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on Java compile cache (C:\Users\shon5\IdeaProjects\servlet\gradle\wrapper\caches\8.2.1\javaCompile).
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+2023-10-23T02:04:11.676+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [3f126a51-c098-4b68-9402-045830dccee4 port:62549, addresses:[localhost/127.0.0.1]]
+2023-10-23T02:04:11.677+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-10-23T02:04:11.678+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-10-23T02:04:11.679+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
